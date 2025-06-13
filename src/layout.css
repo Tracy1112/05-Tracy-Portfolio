@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Layout.css */
+.layout {
+  min-height: 100vh;
+  background-image: radial-gradient(
+      40.87% 69.47% at 85.87% 31.98%,
+      rgba(3, 255, 104, 0.09) 0%,
+      rgba(121, 255, 175, 0) 100%
+    ),
+    radial-gradient(
+      54.34% 45.76% at 15.8% 49.94%,
+      rgba(69, 3, 255, 0.2) 0%,
+      rgba(69, 3, 255, 0) 100%
+    ),
+    linear-gradient(to right, #01100f, #01100f);
+  background-attachment: fixed;
+  background-color: #01100f; /* Fallback color */
+  color: #fff; /* Example text color */
+  font-family: 'Inter', sans-serif; /* Use Inter font */
+}

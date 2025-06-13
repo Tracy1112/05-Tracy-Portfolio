@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-6xl pl-16 pr-6;
+  }
+  .text-stroke-white {
+    -webkit-text-stroke: 1px white;
+    text-stroke: 1px white;
+  }
+}
