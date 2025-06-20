@@ -59,7 +59,7 @@ const Navbar = () => {
             to="/contact"
             className="ml-8 px-4 py-2 h-10 min-w-fit font-bold text-base font-sans border border-green-400 bg-green-400 text-black rounded-full flex items-center justify-center transition-colors duration-200 hover:bg-green-600 active:bg-green-700 hidden md:flex"
           >
-            Hire me
+            Contact me
           </Link>
 
           {/* Mobile Dropdown Menu */}
